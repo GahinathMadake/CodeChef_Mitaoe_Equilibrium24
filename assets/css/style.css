@@ -7123,6 +7123,8 @@ label {
   position: relative;
 }
 .cs-team.cs-style1 .cs-member_thumb {
+  max-height: 400px;
+  min-height: 350px;
   border-radius: 15px;
   position: relative;
   overflow: inherit;
@@ -7130,6 +7132,8 @@ label {
 }
 .cs-team.cs-style1 .cs-member_thumb img {
   width: 100%;
+  max-height: 400px;
+  min-height: 350px;
   position: relative;
   z-index: 1;
   border-radius: inherit;
@@ -9487,5 +9491,14 @@ html .ui-button.ui-state-disabled:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.team_member{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
