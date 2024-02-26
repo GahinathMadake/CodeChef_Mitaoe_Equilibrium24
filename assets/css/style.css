@@ -9502,3 +9502,28 @@ html .ui-button.ui-state-disabled:active {
   gap: 20px;
 }
 
+#headingVideo{
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 900px) {
+  #headingVideo{
+    width: 700px;
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  #headingVideo{
+    width: 500px;
+  }
+  
+}
+@media screen and (max-width: 550px) {
+  #headingVideo{
+    width: 350px;
+  }
+  
+}
+
